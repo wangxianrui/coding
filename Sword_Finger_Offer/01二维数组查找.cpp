@@ -1,11 +1,6 @@
-#include <iostream>
-#include <vector>
-
-using namespace std;
-
 class Solution {
 public:
-    bool Find(int target, vector<vector<int>> array) {
+    bool Find(int target, vector <vector<int>> array) {
         int rowLen = array.size();
         int colLen = array[0].size();
         int row = rowLen - 1, col = 0;
