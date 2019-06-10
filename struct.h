@@ -5,6 +5,12 @@
 #ifndef CODING_STRUCT_H
 #define CODING_STRUCT_H
 
+#include <cstring>
+#include <vector>
+#include <queue>
+#include <stack>
+#include <set>
+#include <algorithm>
 
 struct TreeNode {
     int val;
