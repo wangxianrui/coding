@@ -11,6 +11,8 @@
 #include <stack>
 #include <set>
 #include <algorithm>
+#include <numeric>
+
 
 struct TreeNode {
     int val;
